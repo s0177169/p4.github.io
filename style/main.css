@@ -1,0 +1,39 @@
+@media screen and (min-width: 980px) /* Desktop */ {
+    .navHead{
+        max-width:800px; 
+        background-color:#ffcbbb; 
+        margin: 0 auto; 
+        margin-top:0px; 
+        padding:10px;
+    }
+    main{
+        max-width:800px;
+        max-height:0 auto;
+        min-width: 500px;
+        background-color:#884242; 
+        margin: 0 auto; 
+        margin-top:20px; 
+        padding:10px;
+        }
+}
+@media screen and (max-width: 500px) /* Mobile */ {
+    .navHead{
+        max-width:500px; 
+        background-color:#ffcbbb; 
+        margin: 0 auto; 
+        margin-top:0px; 
+        padding:10px;
+    }
+    main{
+        max-width:500px;
+        max-height:0 auto;
+        background-color:#884242; 
+        margin: 0 auto; 
+        margin-top:20px; 
+        padding:10px;
+        }
+    .mp-0 {
+        padding: 0 !important;
+        margin: 0 !important;
+        }
+}

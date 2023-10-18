@@ -1,0 +1,56 @@
+ex2:
+.navMain{
+    max-width:500px; 
+    background-color:#884242; 
+    margin: 0 auto; 
+    margin-top:20px; 
+    padding:10px;
+}
+
+ex3:
+#main-aside-wrapper {
+ flex-direction: row;
+ display: flex;
+}
+#main-aside-wrapper main, #main-aside-wrapper aside {
+ background-color: #ddd;
+ margin: 10px;
+ padding: 10px;
+}
+#main-aside-wrapper aside {
+ flex: 1;
+ order: 1;
+}
+#main-aside-wrapper main {
+ flex: 3;
+ order: 2;
+}
+
+<body>
+ <div id="main-aside-wrapper">
+    <main>
+        <h1>Главный контент</h1>
+        <p>Вторая строка</p>
+    </main>
+    <aside>Сайдбар</aside>
+ </div>
+</body>
+
+ex4:
+<div class="col-md-9 order-2 px-sm-3">
+  <div class="h-100 py-3">
+  <main>
+    <h1>Главный контент</h1>
+    <p>Вторая строка</p>
+  </main>
+  </div>
+</div>
+<div class="col-md-3 order-1 px-sm-3">
+  <div class="h-100 py-3">
+  <aside>
+  Сайдбар
+  </aside>
+  </div>
+</div>
+
+<div class="row d-flex mx-sm-m3"></div>
